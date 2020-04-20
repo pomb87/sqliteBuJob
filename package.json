@@ -1,0 +1,26 @@
+{
+  "name": "sqliteBuJob",
+  "version": "1.0.0",
+  "description": "creates a backup of a sqlite db every day",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pomb87/sqliteBuJob.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pomb87/sqliteBuJob/issues"
+  },
+  "homepage": "https://github.com/pomb87/sqliteBuJob#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "fs": "0.0.1-security",
+    "node-cron": "^2.0.3",
+    "sqlite3": "^4.1.1"
+  }
+}
